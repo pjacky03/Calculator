@@ -1,19 +1,19 @@
 .calculator {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 32px;
   padding: 24px;
   width: 320px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
 .display {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 16px;
   padding: 20px;
   text-align: right;
@@ -25,7 +25,7 @@
 }
 
 .previous-operand {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
   margin-bottom: 4px;
   word-wrap: break-word;
@@ -33,7 +33,7 @@
 }
 
 .current-operand {
-  color: #1a1a1a;
+  color: #fff;
   font-size: 2.5rem;
   font-weight: 300;
   word-wrap: break-word;
@@ -48,8 +48,8 @@
 
 button {
   border: none;
-  background: rgba(0, 0, 0, 0.05);
-  color: #1a1a1a;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
   font-size: 1.25rem;
   font-weight: 500;
   padding: 18px;
@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
 }
 
@@ -75,17 +75,17 @@ button.span-two {
 }
 
 button.operator {
-  background: rgba(255, 159, 10, 0.15);
-  color: #e67e00;
+  background: rgba(255, 159, 10, 0.2);
+  color: #ff9f0a;
 }
 
 button.operator:hover {
-  background: rgba(255, 159, 10, 0.25);
+  background: rgba(255, 159, 10, 0.3);
 }
 
 button.function {
-  background: rgba(0, 0, 0, 0.03);
-  color: #666;
+  background: rgba(255, 255, 255, 0.05);
+  color: #a5a5a5;
 }
 
 button.equal {
